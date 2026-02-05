@@ -1407,11 +1407,11 @@ body {
 }
 
 .score-box {
-  background: var(--gradient-primary);
+  background: linear-gradient(135deg, #e0f2fe 0%, #dbeafe 100%);
   padding: 1.5rem;
   border-radius: var(--radius-lg);
   text-align: center;
-  color: white;
+  border: 2px solid #3b82f6;
   box-shadow: var(--shadow-md);
   transition: all var(--transition-base);
 }
@@ -1419,6 +1419,8 @@ body {
 .score-box:hover {
   transform: translateY(-5px);
   box-shadow: var(--shadow-xl);
+  border-color: #2563eb;
+  background: linear-gradient(135deg, #bfdbfe 0%, #dbeafe 100%);
 }
 
 .score-label {
@@ -1426,8 +1428,7 @@ body {
   opacity: 1;
   margin-bottom: 0.5rem;
   font-weight: 700;
-  color: #ffffff;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  color: #1e40af;
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
@@ -1435,15 +1436,13 @@ body {
 .score-value {
   font-size: 2.5rem;
   font-weight: 900;
-  color: #ffffff;
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  color: #1e3a8a;
 }
 
 .score-value-text {
   font-size: 1.4rem;
   font-weight: 800;
-  color: #ffffff;
-  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  color: #1e3a8a;
 }
 
 .linguistic-section {

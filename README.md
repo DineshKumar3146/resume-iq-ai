@@ -8,7 +8,9 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 ## ✨ Features
+ 
 
+ 
 ### Core Analysis
 - 🤖 **AI-Powered Analysis** - Advanced resume evaluation using **Gemini 3.0 Flash**
 - 📊 **Comprehensive Scoring** - Multi-dimensional scoring (ATS, Skills, Experience, Content, Structure)
